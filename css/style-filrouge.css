@@ -12,6 +12,18 @@ html {
     font-family: 'Montserrat';
 }
 
+header 
+
+a{
+    color: #ffffff;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+}
+
 h1 {
     font-family: 'Yeseva', cursive;
     font-size: 1.5em;
@@ -37,3 +49,86 @@ span{
 p {
     color: #808080;
 }
+
+button {
+    background-color: #041821;
+    color: #ffffff;
+    border: none;
+    letter-spacing: 0.25em;
+    font-weight: lighter;
+    font-size: 0.5em;
+    padding: 0.5em;
+    transition-duration: 0.4s;
+  }
+
+button:nth-child(2) {
+    background-color:#1bd79e;
+}
+
+footer{
+    text-align: center;
+    font-size: 1em;
+}
+
+footer :last-child {
+    font-size: 0.7em;
+}
+
+.grid {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+
+
+
+@media screen and (max-width:480px){ /* téléphone */
+    .grid img:nth-child(n + 10) {
+        display: none;
+    }
+
+    header {
+        border-bottom: 1px solid #808080;
+        padding: 1.5em 0;
+    }
+}    
+@media screen and (min-width:481px) and (max-width:768px){ /* tablette */
+    .grid img:nth-child(n + 10) {
+        display: none;
+    }
+    header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1em;
+    }
+    
+    main {
+        width: 80%;
+        margin: auto;
+    }
+    
+    h2 {
+        font-size: 3em;
+    }
+    
+    nav {
+        justify-content: center;
+        gap: 1em;
+    }
+    
+    button {
+        font-size: 0.75em;
+    }
+    
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+    }
+    
+    .grid img:nth-child(n + 10) {
+        display: block;
+    }
+    
+    p {
+        width: 80%;
+    }
+}    
