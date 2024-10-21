@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Yeseva';
+    src: url("../fonts/YesevaOne-Regular.ttf") format("opentype");
+}
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url("../fonts/Montserrat-VariableFont_wght.ttf") format("opentype");
+}
+
+h1{
+    font-family: 'Yeseva';
+    color :#ffffff
+}
+
+body
+{
+    background-color :#041821
+}
