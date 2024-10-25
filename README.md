@@ -11,4 +11,4 @@ Ainsi que :
   - Lorem Picsum
   - Font Awesome
 
-**PS:** J'ai dû finir la réalisation du projet chez moi et j'ai eu difficultés à réaliser les commits. C'est pourquoi j'ai importé directement mon travail dans mon repository.
+**PS:** J'ai dû finir la réalisation du projet chez moi et j'ai eu difficultés à réaliser les commits depuis VS Code. C'est pourquoi j'ai importé directement mon travail dans mon repository et n'ai donc pas pû commenté mes commits.
